@@ -1,6 +1,6 @@
 # Quantum
 
-Take the leap with your editor and start coding in the New Age. This Extension pack includes popular VS Code extensions for Node.js development to be used as an add-on to the Quantum Extension pack or by itself.
+Take the leap with your editor and start coding in the New Age. This Extension pack includes popular VS Code extensions for Node.js development to be used as an add-on to the [Quantum Extension pack](vscode:extension/wrenchingdev.quantum-leap ) or by itself.
 
 ## What's in the Box
 
