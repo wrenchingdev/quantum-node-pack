@@ -9,9 +9,10 @@ Take the leap with your editor and start coding in the New Age. This Extension p
 * [ES Lint](vscode:extension/dbaeumer.vscode-eslint) - Integrates [ESLint](http://eslint.org/) into VS Code.
 * [npm](vscode:extension/eg2.vscode-npm-script) - Run npm scripts from the command palatte and validate the installed modules defined in `package.json`.
 * [JavaScript (ES6) Snippets](vscode:extension/xabikos.JavaScriptSnippets) - Adds code snippets for JavaScript development in ES6 syntax.
-* [Search node_modules](vscode:extension/jasonnutter.search-node-modules) - Quickly search for node modules in your project.
 * [NPM IntelliSense](vscode:extension/christian-kohler.npm-intellisense) - Adds IntelliSense for npm modules in your code.
 * [Path IntelliSense](vscode:extension/christian-kohler.path-intellisense) - Autocompletes filenames in your code.
+* [Prettier-Standard - JavaScript formatter](vscode:extension/numso.prettier-standard-vscode) - VS Code plugin for prettier + standard
+* [Search node_modules](vscode:extension/jasonnutter.search-node-modules) - Quickly search for node modules in your project.
 
 ## Settings.JSON
 
