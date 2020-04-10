@@ -1,7 +1,8 @@
 {
     "name": "quantum-node-pack",
     "displayName": "Quantum Node.js Pack",
-    "description": "Popular VS Code extensions for Node.js development.",
+    "description": "Take the leap with your editor and start coding in the New Age. This Extension pack includes popular VS Code extensions for Node.js development to be used as an add-on to the Quantum Extension pack or by itself.",
+    "publisher": "wrenchingdev",
     "version": "0.0.1",
     "scripts": {
         "publishMajor": "npm version major && rm quantum-leap-* && vsce package && vsce publish",
