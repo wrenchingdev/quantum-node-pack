@@ -5,9 +5,9 @@
     "publisher": "wrenchingdev",
     "version": "0.2.0",
     "scripts": {
-        "publishMajor": "npm version major && rm quantum-node-* && vsce package && vsce publish",
-        "publishMinor": "npm version minor && rm quantum-node-* && vsce package && vsce publish",
-        "publishPatch": "npm version patch && rm quantum-node-* && vsce package && vsce publish"
+        "publishMajor": "npm version major && rm quantum-* && vsce package && vsce publish",
+        "publishMinor": "npm version minor && rm quantum-* && vsce package && vsce publish",
+        "publishPatch": "npm version patch && rm quantum-* && vsce package && vsce publish"
     },
     "icon": "nodejs-dark-icon.png",
     "repository": {
