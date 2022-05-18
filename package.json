@@ -3,13 +3,14 @@
     "displayName": "Quantum Node.js Pack",
     "description": "Take the leap with your editor and start coding in the New Age. This Extension pack includes popular VS Code extensions for Node.js development to be used as an add-on to the Quantum Extension pack or by itself.",
     "publisher": "wrenchingdev",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "scripts": {
-        "publishMajor": "npm version major && rm quantum-* && vsce package && vsce publish",
-        "publishMinor": "npm version minor && rm quantum-* && vsce package && vsce publish",
-        "publishPatch": "npm version patch && rm quantum-* && vsce package && vsce publish"
+        "major": "npm version major && npm run vsce",
+        "minor": "npm version minor && npm run vsce",
+        "patch": "npm version patch && npm run vsce",
+        "vsce": "rm quantum-leap-*; vsce package && vsce publish"
     },
-    "icon": "nodejs-dark-icon.png",
+    "icon": "icon-nodejs-dark.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/firehawk09/quantum-node-pack"
@@ -25,7 +26,6 @@
         "christian-kohler.path-intellisense",
         "dbaeumer.vscode-eslint",
         "eg2.vscode-npm-script",
-        "jasonnutter.search-node-modules",
         "numso.prettier-standard-vscode",
         "xabikos.JavaScriptSnippets"
     ],
